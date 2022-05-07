@@ -23,7 +23,8 @@ const weatherData = (callback) => {
                 callback(undefined, {
                     temperature: body.main.temp,
                     description: body.weather[0].description,
-                    cityName: body.name
+                    cityName: body.name,
+                    icon: body.weather[0].icon
                 })
             }
         })

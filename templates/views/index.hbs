@@ -8,9 +8,13 @@
         <div class="main-content">
             {{>header}}
             <article class="widget">
-                <form class="weatherLocation"><input placeholder="location..." type = "text"/><button>Seach</button>
-                </form>
-                <div class="weatherIcon"><i class="wi wi-day-cloudy"></i></div>
+                <button id="findWeather" >find</button>
+                {{!-- <form class="weatherLocation"><input placeholder="location..." type = "text"/><button>Seach</button>
+                </form> --}}
+                
+                <div class="weatherIcon">
+                    <img id ="weatherImage" src="" >
+                </div>
                 <div class="weatherInfo">
                     <div class="temperature"><span></span></div>
                     <div class="description">    

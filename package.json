@@ -1,0 +1,25 @@
+{
+  "name": "weather-latte-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdnagraj/Weather-Latte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdnagraj/Weather-Latte/issues"
+  },
+  "homepage": "https://github.com/pdnagraj/Weather-Latte#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "node-navigator": "^1.0.1",
+    "request": "^2.88.2"
+  }
+}
